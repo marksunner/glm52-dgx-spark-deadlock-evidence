@@ -1,0 +1,100 @@
+  File "/usr/lib/python3.12/multiprocessing/connection.py", line 395 in _recv
+  File "/usr/lib/python3.12/multiprocessing/connection.py", line 430 in _recv_bytes
+  File "/usr/lib/python3.12/multiprocessing/connection.py", line 250 in recv
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/multiproc_executor.py", line 796 in death_pipe_monitor
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x0000f9eda478a8c0 (most recent call first):
+  File "/usr/local/lib/python3.12/dist-packages/glm52_consensus_guard.py", line 259 in _consensus_loop
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Current thread 0x0000f9eda67ca8c0 (most recent call first):
+  File "/usr/local/lib/python3.12/dist-packages/glm52_watchdog.py", line 212 in _trigger_abort
+  File "/usr/local/lib/python3.12/dist-packages/glm52_watchdog.py", line 136 in _gloo_loop
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x0000f9eda6fda8c0 (most recent call first):
+  File "/usr/local/lib/python3.12/dist-packages/glm52_watchdog.py", line 107 in _local_loop
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x0000f9edbf5fa8c0 (most recent call first):
+  File "/usr/lib/python3.12/threading.py", line 355 in wait
+  File "/usr/lib/python3.12/queue.py", line 171 in get
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/multiproc_executor.py", line 988 in async_output_busy_loop
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x0000f9ee224df8c0 (most recent call first):
+  File "/usr/lib/python3.12/threading.py", line 359 in wait
+  File "/usr/lib/python3.12/threading.py", line 655 in wait
+  File "/usr/local/lib/python3.12/dist-packages/tqdm/_monitor.py", line 69 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x0000f9f1f45fc8c0 (most recent call first):
+  File "/usr/local/lib/python3.12/dist-packages/torch/_ops.py", line 1269 in __call__
+  File "/usr/local/lib/python3.12/dist-packages/vllm/_custom_ops.py", line 1190 in marlin_gemm
+  File "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/quantization/utils/marlin_utils.py", line 717 in apply_gptq_marlin_linear
+  File "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/kernels/linear/mixed_precision/marlin.py", line 230 in apply_weights
+  File "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/quantization/compressed_tensors/schemes/compressed_tensors_wNa16.py", line 257 in apply_weights
+  File "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/quantization/compressed_tensors/compressed_tensors.py", line 958 in apply
+  File "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/linear.py", line 1688 in forward
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1790 in _call_impl
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1779 in _wrapped_call_impl
+  File "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/models/deepseek_v2.py", line 243 in forward
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1790 in _call_impl
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1779 in _wrapped_call_impl
+  File "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/fused_moe/runner/shared_experts.py", line 172 in forward
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1790 in _call_impl
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1779 in _wrapped_call_impl
+  File "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/fused_moe/runner/moe_runner.py", line 539 in _maybe_apply_shared_experts
+  File "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/fused_moe/runner/moe_runner.py", line 554 in _apply_quant_method
+  File "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/fused_moe/runner/moe_runner.py", line 830 in _forward_impl
+  File "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/fused_moe/runner/moe_runner.py", line 161 in _moe_forward_shared
+  File "/usr/local/lib/python3.12/dist-packages/torch/_ops.py", line 865 in __call__
+  File "<container-cache>/vllm/torch_compile_cache/torch_aot_compile/5645ffdab46d273ef043225cf9fcede578d2890670c1218c1e754c70be9dacd7/inductor_cache/ho/chomp6ad6ueswsrlk34bqshzcvyfet2vkk3hwslm7ypp3r6p6qj3.py", line 1928 in call
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/utils.py", line 3401 in run
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/output_code.py", line 656 in __call__
+  File "/usr/local/lib/python3.12/dist-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 1011 in inner_fn
+  File "/usr/local/lib/python3.12/dist-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 783 in wrapper
+  File "/usr/local/lib/python3.12/dist-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2298 in __call__
+  File "/usr/local/lib/python3.12/dist-packages/torch/_functorch/_aot_autograd/utils.py", line 138 in call_func_at_runtime_with_args
+  File "/usr/local/lib/python3.12/dist-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 580 in runtime_wrapper
+  File "/usr/local/lib/python3.12/dist-packages/torch/_functorch/aot_autograd.py", line 1200 in forward
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/eval_frame.py", line 1263 in _fn
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/standalone_compile.py", line 122 in __call__
+  File "/usr/local/lib/python3.12/dist-packages/vllm/compilation/piecewise_backend.py", line 380 in __call__
+  File "<string>", line 1015 in execution_fn
+  File "/usr/local/lib/python3.12/dist-packages/vllm/compilation/caching.py", line 217 in __call__
+  File "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/models/deepseek_v2.py", line 1327 in forward
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/aot_compile.py", line 224 in __call__
+  File "/usr/local/lib/python3.12/dist-packages/vllm/compilation/decorators.py", line 520 in __call__
+  File "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/models/deepseek_v2.py", line 1754 in forward
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1790 in _call_impl
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1779 in _wrapped_call_impl
+  File "/usr/local/lib/python3.12/dist-packages/vllm/compilation/cuda_graph.py", line 254 in __call__
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/worker/gpu_model_runner.py", line 3925 in _model_forward
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/worker/gpu_model_runner.py", line 4720 in execute_model
+  File "/usr/local/lib/python3.12/dist-packages/torch/utils/_contextlib.py", line 124 in decorate_context
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/worker/gpu_worker.py", line 1063 in execute_model
+  File "/usr/local/lib/python3.12/dist-packages/torch/utils/_contextlib.py", line 124 in decorate_context
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/worker/worker_base.py", line 351 in execute_model
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/multiproc_executor.py", line 1008 in worker_busy_loop
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/multiproc_executor.py", line 897 in worker_main
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108 in run
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314 in _bootstrap
+  File "/usr/lib/python3.12/multiprocessing/spawn.py", line 135 in _main
+  File "/usr/lib/python3.12/multiprocessing/spawn.py", line 122 in spawn_main
+  File "<string>", line 1 in <module>
+ERROR 07-16 13:09:45 [multiproc_executor.py:286] Worker proc VllmWorker-1 died unexpectedly (exit code: None), shutting down executor.
+INFO 07-16 13:09:45 [multiproc_executor.py:431] [shutdown] Executor: waiting for worker exit count=1
+INFO 07-16 13:09:47 [multiproc_executor.py:438] [shutdown] Executor: all workers exited gracefully

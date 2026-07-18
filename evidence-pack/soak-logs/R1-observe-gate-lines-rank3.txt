@@ -1,0 +1,21 @@
+(Worker_TP3 pid=282) INFO 07-17 12:45:53 [gpu_model_runner.py:4319] GLM52_GATE ARMED rank=3 world=4 mode=observe (in-step drafter-gate consensus over TP gloo cpu_group)
+(Worker_TP3 pid=282) WARNING 07-17 12:54:57 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=1: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:54:57 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=2: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:54:58 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=3: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:02 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=4: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:03 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=5: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:07 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=6: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:07 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=7: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:12 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=8: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:12 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=9: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:17 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=10: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:17 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=11: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:21 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=12: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:22 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=13: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:26 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=14: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:26 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=15: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:31 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=16: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:31 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=17: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:36 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=18: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:36 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=19: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch
+(Worker_TP3 pid=282) WARNING 07-17 12:55:40 [gpu_model_runner.py:4918] GLM52_DRAFTER skip n=20: input_fits_in_drafter=False (attn_metadata_none=False) -- un-guarded TP branch

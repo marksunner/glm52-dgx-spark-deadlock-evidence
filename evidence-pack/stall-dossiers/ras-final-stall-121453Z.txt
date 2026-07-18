@@ -1,0 +1,2 @@
+(Worker_TP0 pid=340) INFO 07-17 12:14:38 [glm52_consensus_guard.py:345] GLM52_CONSENSUS_TELEMETRY {"divergence": 0, "gather_fails": 0, "inflight": [1, 1, 1, 1], "max_divergence_seen": 0, "mode": "observe", "poll": 59, "ras_fails": 0, "ras_spread": 0, "ras_strikes": 0, "step_rate_hz": 0.0, "steps": [10, 10, 10, 10], "strikes": 0}
+RAS_OPS 0x33fdac92f1700d0b:[23, 23, 23, 23] 0x3f912d05fc5abc17:[1, 1, 1, 1] 0x8bc31920814dec8e:[1171, 1171, 1171, 1171]

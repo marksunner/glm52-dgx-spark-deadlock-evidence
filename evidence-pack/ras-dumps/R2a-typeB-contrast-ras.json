@@ -1,0 +1,302 @@
+OK
+{
+  "nccl_version": "2.30.4",
+  "cuda_runtime_version": 13020,
+  "cuda_driver_version": 13000,
+  "timestamp": "2026-07-16 14:40:04",
+  "communicators_count": 3,
+  "communicators": [
+    {
+      "hash": "0x3f66c65f9c8a85a2",
+      "secondary_hash": "0xf29df5776865c769:0x87c832c4715c939e",
+      "size": 4,
+      "ranks_count": 4,
+      "missing_ranks_count": 0,
+      "ranks": [
+        {
+          "rank": 0,
+          "host": "<node-rank0>",
+          "pid": 341,
+          "cuda_dev": 0,
+          "nvml_dev": 0,
+          "status": {
+            "init_state": 0,
+            "async_error": 0,
+            "finalize_called": false,
+            "destroy_flag": false,
+            "abort_flag": false
+          },
+          "collective_counts": {
+            "Broadcast": 0,
+            "Reduce": 0,
+            "AllGather": 23,
+            "ReduceScatter": 0,
+            "AllReduce": 0
+          }
+        },
+        {
+          "rank": 1,
+          "host": "<node-rank1>",
+          "pid": 282,
+          "cuda_dev": 0,
+          "nvml_dev": 0,
+          "status": {
+            "init_state": 0,
+            "async_error": 0,
+            "finalize_called": false,
+            "destroy_flag": false,
+            "abort_flag": false
+          },
+          "collective_counts": {
+            "Broadcast": 0,
+            "Reduce": 0,
+            "AllGather": 23,
+            "ReduceScatter": 0,
+            "AllReduce": 0
+          }
+        },
+        {
+          "rank": 2,
+          "host": "<node-rank2>",
+          "pid": 284,
+          "cuda_dev": 0,
+          "nvml_dev": 0,
+          "status": {
+            "init_state": 0,
+            "async_error": 0,
+            "finalize_called": false,
+            "destroy_flag": false,
+            "abort_flag": false
+          },
+          "collective_counts": {
+            "Broadcast": 0,
+            "Reduce": 0,
+            "AllGather": 23,
+            "ReduceScatter": 0,
+            "AllReduce": 0
+          }
+        },
+        {
+          "rank": 3,
+          "host": "<node-rank3>",
+          "pid": 286,
+          "cuda_dev": 0,
+          "nvml_dev": 0,
+          "status": {
+            "init_state": 0,
+            "async_error": 0,
+            "finalize_called": false,
+            "destroy_flag": false,
+            "abort_flag": false
+          },
+          "collective_counts": {
+            "Broadcast": 0,
+            "Reduce": 0,
+            "AllGather": 23,
+            "ReduceScatter": 0,
+            "AllReduce": 0
+          }
+        }
+      ],
+      "missing_ranks": [
+
+      ]
+    },
+    {
+      "hash": "0x5df960987e14719e",
+      "secondary_hash": "0x11308fb049efb365:0xa65accfd52e67f9a",
+      "size": 4,
+      "ranks_count": 4,
+      "missing_ranks_count": 0,
+      "ranks": [
+        {
+          "rank": 0,
+          "host": "<node-rank0>",
+          "pid": 341,
+          "cuda_dev": 0,
+          "nvml_dev": 0,
+          "status": {
+            "init_state": 0,
+            "async_error": 0,
+            "finalize_called": false,
+            "destroy_flag": false,
+            "abort_flag": false
+          },
+          "collective_counts": {
+            "Broadcast": 0,
+            "Reduce": 0,
+            "AllGather": 0,
+            "ReduceScatter": 0,
+            "AllReduce": 1
+          }
+        },
+        {
+          "rank": 1,
+          "host": "<node-rank1>",
+          "pid": 282,
+          "cuda_dev": 0,
+          "nvml_dev": 0,
+          "status": {
+            "init_state": 0,
+            "async_error": 0,
+            "finalize_called": false,
+            "destroy_flag": false,
+            "abort_flag": false
+          },
+          "collective_counts": {
+            "Broadcast": 0,
+            "Reduce": 0,
+            "AllGather": 0,
+            "ReduceScatter": 0,
+            "AllReduce": 1
+          }
+        },
+        {
+          "rank": 2,
+          "host": "<node-rank2>",
+          "pid": 284,
+          "cuda_dev": 0,
+          "nvml_dev": 0,
+          "status": {
+            "init_state": 0,
+            "async_error": 0,
+            "finalize_called": false,
+            "destroy_flag": false,
+            "abort_flag": false
+          },
+          "collective_counts": {
+            "Broadcast": 0,
+            "Reduce": 0,
+            "AllGather": 0,
+            "ReduceScatter": 0,
+            "AllReduce": 1
+          }
+        },
+        {
+          "rank": 3,
+          "host": "<node-rank3>",
+          "pid": 286,
+          "cuda_dev": 0,
+          "nvml_dev": 0,
+          "status": {
+            "init_state": 0,
+            "async_error": 0,
+            "finalize_called": false,
+            "destroy_flag": false,
+            "abort_flag": false
+          },
+          "collective_counts": {
+            "Broadcast": 0,
+            "Reduce": 0,
+            "AllGather": 0,
+            "ReduceScatter": 0,
+            "AllReduce": 1
+          }
+        }
+      ],
+      "missing_ranks": [
+
+      ]
+    },
+    {
+      "hash": "0x7cd4a8440381a6e2",
+      "secondary_hash": "0x300bd75bcf5ce8a9:0xc53614a8d853b4de",
+      "size": 4,
+      "ranks_count": 4,
+      "missing_ranks_count": 0,
+      "ranks": [
+        {
+          "rank": 0,
+          "host": "<node-rank0>",
+          "pid": 341,
+          "cuda_dev": 0,
+          "nvml_dev": 0,
+          "status": {
+            "init_state": 0,
+            "async_error": 0,
+            "finalize_called": false,
+            "destroy_flag": false,
+            "abort_flag": false
+          },
+          "collective_counts": {
+            "Broadcast": 0,
+            "Reduce": 0,
+            "AllGather": 0,
+            "ReduceScatter": 0,
+            "AllReduce": 1937
+          }
+        },
+        {
+          "rank": 1,
+          "host": "<node-rank1>",
+          "pid": 282,
+          "cuda_dev": 0,
+          "nvml_dev": 0,
+          "status": {
+            "init_state": 0,
+            "async_error": 0,
+            "finalize_called": false,
+            "destroy_flag": false,
+            "abort_flag": false
+          },
+          "collective_counts": {
+            "Broadcast": 0,
+            "Reduce": 0,
+            "AllGather": 0,
+            "ReduceScatter": 0,
+            "AllReduce": 1937
+          }
+        },
+        {
+          "rank": 2,
+          "host": "<node-rank2>",
+          "pid": 284,
+          "cuda_dev": 0,
+          "nvml_dev": 0,
+          "status": {
+            "init_state": 0,
+            "async_error": 0,
+            "finalize_called": false,
+            "destroy_flag": false,
+            "abort_flag": false
+          },
+          "collective_counts": {
+            "Broadcast": 0,
+            "Reduce": 0,
+            "AllGather": 0,
+            "ReduceScatter": 0,
+            "AllReduce": 1937
+          }
+        },
+        {
+          "rank": 3,
+          "host": "<node-rank3>",
+          "pid": 286,
+          "cuda_dev": 0,
+          "nvml_dev": 0,
+          "status": {
+            "init_state": 0,
+            "async_error": 0,
+            "finalize_called": false,
+            "destroy_flag": false,
+            "abort_flag": false
+          },
+          "collective_counts": {
+            "Broadcast": 0,
+            "Reduce": 0,
+            "AllGather": 0,
+            "ReduceScatter": 0,
+            "AllReduce": 1937
+          }
+        }
+      ],
+      "missing_ranks": [
+
+      ]
+    }
+  ],
+  "ras": {
+    "collection_time_sec": 0.002,
+    "timeouts_count": 0
+  }
+}

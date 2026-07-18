@@ -1,0 +1,1 @@
+R1 verdict: ACHIEVED. WOULD-ENFORCE x12 caught at boundary, RAS frozen 19500/19500/19500/19499, 0x51=0 on all nodes. Churn ruling confirmed.

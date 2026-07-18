@@ -1,0 +1,1 @@
+see transcript: cuda-gdb receipts — sparse_mla_prefill_kernel<ModelType2,ComputeMode0,16,2048,64> grid(120,1,1) block(60,0,0) warps 8-11 all-lanes spin at SYNCS.PHASECHK.TRANS64.TRYWAIT / @P0 BRA loop, SM mask 0x000080000000, 18.33W, RoCE counters all-zero fleet-wide

@@ -1,0 +1,2 @@
+utilization.gpu [%], utilization.memory [%], temperature.gpu, power.draw [W]
+96 %, 0 %, 55, 18.40 W

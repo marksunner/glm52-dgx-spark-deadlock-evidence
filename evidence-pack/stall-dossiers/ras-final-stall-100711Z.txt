@@ -1,0 +1,2 @@
+(Worker_TP0 pid=340) INFO 07-17 10:07:08 [glm52_consensus_guard.py:345] GLM52_CONSENSUS_TELEMETRY {"event": "would_enforce", "rank": 0, "reason": "RAS frozen collective-count MISMATCH x42 polls with hot RPC in flight steps=[26, 26, 26, 26] inflight=[1, 1, 1, 1]", "steps": [26, 26, 26, 26]}
+RAS_OPS 0x8d302876c1161fe:[58, 58, 58, 58] 0x31a470117f721e95:[1, 1, 1, 1] 0x4ac368ad6e6ef2e3:[1205, 1204, 1205, 1205]

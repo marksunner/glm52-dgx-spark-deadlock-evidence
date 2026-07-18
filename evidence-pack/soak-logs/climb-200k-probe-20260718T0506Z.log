@@ -1,0 +1,77 @@
+=== STAGE reps=5 (delta=5 reps ~120 tok) start 2026-07-18T05:05:06Z ===
+STAGE-OK reps=5 1s prompt_tokens=120 completion_tokens=1
+=== STAGE reps=10 (delta=5 reps ~120 tok) start 2026-07-18T05:05:14Z ===
+STAGE-OK reps=10 1s prompt_tokens=240 completion_tokens=1
+=== STAGE reps=20 (delta=10 reps ~240 tok) start 2026-07-18T05:05:22Z ===
+STAGE-OK reps=20 1s prompt_tokens=480 completion_tokens=1
+=== STAGE reps=40 (delta=20 reps ~480 tok) start 2026-07-18T05:05:30Z ===
+STAGE-OK reps=40 1s prompt_tokens=960 completion_tokens=1
+=== STAGE reps=60 (delta=20 reps ~480 tok) start 2026-07-18T05:05:38Z ===
+STAGE-OK reps=60 1s prompt_tokens=1440 completion_tokens=1
+=== STAGE reps=85 (delta=25 reps ~600 tok) start 2026-07-18T05:05:46Z ===
+STAGE-OK reps=85 1s prompt_tokens=2040 completion_tokens=1
+=== STAGE reps=227 (delta=142 reps ~3408 tok) start 2026-07-18T05:05:54Z ===
+STAGE-OK reps=227 5s prompt_tokens=5448 completion_tokens=1
+=== STAGE reps=369 (delta=142 reps ~3408 tok) start 2026-07-18T05:06:02Z ===
+STAGE-OK reps=369 5s prompt_tokens=8856 completion_tokens=1
+=== STAGE reps=511 (delta=142 reps ~3408 tok) start 2026-07-18T05:06:10Z ===
+STAGE-OK reps=511 5s prompt_tokens=12264 completion_tokens=1
+=== STAGE reps=653 (delta=142 reps ~3408 tok) start 2026-07-18T05:06:18Z ===
+STAGE-OK reps=653 5s prompt_tokens=15672 completion_tokens=1
+=== STAGE reps=795 (delta=142 reps ~3408 tok) start 2026-07-18T05:06:26Z ===
+STAGE-OK reps=795 5s prompt_tokens=19080 completion_tokens=1
+=== STAGE reps=937 (delta=142 reps ~3408 tok) start 2026-07-18T05:06:34Z ===
+STAGE-OK reps=937 6s prompt_tokens=22488 completion_tokens=1
+=== STAGE reps=1079 (delta=142 reps ~3408 tok) start 2026-07-18T05:06:42Z ===
+STAGE-OK reps=1079 6s prompt_tokens=25896 completion_tokens=1
+=== STAGE reps=1221 (delta=142 reps ~3408 tok) start 2026-07-18T05:06:50Z ===
+STAGE-OK reps=1221 6s prompt_tokens=29304 completion_tokens=1
+=== STAGE reps=1363 (delta=142 reps ~3408 tok) start 2026-07-18T05:06:58Z ===
+STAGE-OK reps=1363 6s prompt_tokens=32712 completion_tokens=1
+=== STAGE reps=1505 (delta=142 reps ~3408 tok) start 2026-07-18T05:07:06Z ===
+STAGE-OK reps=1505 6s prompt_tokens=36120 completion_tokens=1
+=== STAGE reps=1647 (delta=142 reps ~3408 tok) start 2026-07-18T05:07:14Z ===
+STAGE-OK reps=1647 7s prompt_tokens=39528 completion_tokens=1
+=== STAGE reps=1789 (delta=142 reps ~3408 tok) start 2026-07-18T05:07:22Z ===
+STAGE-OK reps=1789 7s prompt_tokens=42936 completion_tokens=1
+=== STAGE reps=1931 (delta=142 reps ~3408 tok) start 2026-07-18T05:07:30Z ===
+STAGE-OK reps=1931 7s prompt_tokens=46344 completion_tokens=1
+=== STAGE reps=2073 (delta=142 reps ~3408 tok) start 2026-07-18T05:07:38Z ===
+STAGE-OK reps=2073 7s prompt_tokens=49752 completion_tokens=1
+=== STAGE reps=2215 (delta=142 reps ~3408 tok) start 2026-07-18T05:07:46Z ===
+STAGE-OK reps=2215 7s prompt_tokens=53160 completion_tokens=1
+=== STAGE reps=2357 (delta=142 reps ~3408 tok) start 2026-07-18T05:07:54Z ===
+STAGE-OK reps=2357 7s prompt_tokens=56568 completion_tokens=1
+=== STAGE reps=2499 (delta=142 reps ~3408 tok) start 2026-07-18T05:08:02Z ===
+STAGE-OK reps=2499 7s prompt_tokens=59976 completion_tokens=1
+=== STAGE reps=2641 (delta=142 reps ~3408 tok) start 2026-07-18T05:08:10Z ===
+STAGE-OK reps=2641 7s prompt_tokens=63384 completion_tokens=1
+=== STAGE reps=2783 (delta=142 reps ~3408 tok) start 2026-07-18T05:08:18Z ===
+STAGE-OK reps=2783 8s prompt_tokens=66792 completion_tokens=1
+=== STAGE reps=2925 (delta=142 reps ~3408 tok) start 2026-07-18T05:08:26Z ===
+STAGE-OK reps=2925 8s prompt_tokens=70200 completion_tokens=1
+=== STAGE reps=3067 (delta=142 reps ~3408 tok) start 2026-07-18T05:08:34Z ===
+STAGE-OK reps=3067 8s prompt_tokens=73608 completion_tokens=1
+=== STAGE reps=3209 (delta=142 reps ~3408 tok) start 2026-07-18T05:08:42Z ===
+STAGE-OK reps=3209 8s prompt_tokens=77016 completion_tokens=1
+=== STAGE reps=3351 (delta=142 reps ~3408 tok) start 2026-07-18T05:08:50Z ===
+[stage 3351 2026-07-18T05:09:04Z] (Worker_TP0 pid=342) INFO 07-18 05:08:00 [glm52_consensus_guard.py:345] GLM52_CONSENSUS_TELEMETRY {"divergence": 0, "gather_fails": 0, "inflight": [1, 1, 1, 1], "max_divergence_seen": 0, "mode": "observe", "poll": 70, "ras_fails": 0, "ras_spread": 0, "ras_strikes": 0, "step_rate_hz": 0.73, "steps": [131, 131, 131, 131], "strikes": 0}
+RAS_OPS 0xad06b9687882e0c:[293, 293, 293, 293] 0x13a4f499e2be25f4:[1, 1, 1, 1] 0x8348d78eab4d9655:[9869, 9869, 9869, 9869]
+STAGE-OK reps=3351 8s prompt_tokens=80424 completion_tokens=1
+=== STAGE reps=3493 (delta=142 reps ~3408 tok) start 2026-07-18T05:10:34Z ===
+[stage 3493 2026-07-18T05:10:47Z] (Worker_TP0 pid=342) INFO 07-18 05:10:00 [glm52_consensus_guard.py:345] GLM52_CONSENSUS_TELEMETRY {"divergence": 0, "gather_fails": 0, "inflight": [0, 0, 0, 0], "max_divergence_seen": 0, "mode": "observe", "poll": 94, "ras_fails": 0, "ras_spread": 0, "ras_strikes": 0, "step_rate_hz": 0.0, "steps": [177, 177, 177, 177], "strikes": 0}
+RAS_OPS 0xad06b9687882e0c:[303, 303, 303, 303] 0x13a4f499e2be25f4:[1, 1, 1, 1] 0x8348d78eab4d9655:[10207, 10207, 10207, 10207]
+STAGE-OK reps=3493 8s prompt_tokens=83832 completion_tokens=1
+=== STAGE reps=3635 (delta=142 reps ~3408 tok) start 2026-07-18T05:12:17Z ===
+[stage 3635 2026-07-18T05:12:31Z] (Worker_TP0 pid=342) INFO 07-18 05:12:00 [glm52_consensus_guard.py:345] GLM52_CONSENSUS_TELEMETRY {"divergence": 0, "gather_fails": 0, "inflight": [0, 0, 0, 0], "max_divergence_seen": 0, "mode": "observe", "poll": 118, "ras_fails": 0, "ras_spread": 0, "ras_strikes": 0, "step_rate_hz": 0.0, "steps": [183, 183, 183, 183], "strikes": 0}
+RAS_OPS 0xad06b9687882e0c:[313, 313, 313, 313] 0x13a4f499e2be25f4:[1, 1, 1, 1] 0x8348d78eab4d9655:[10545, 10545, 10545, 10545]
+STAGE-OK reps=3635 8s prompt_tokens=87240 completion_tokens=1
+=== STAGE reps=3777 (delta=142 reps ~3408 tok) start 2026-07-18T05:14:01Z ===
+[stage 3777 2026-07-18T05:14:14Z] (Worker_TP0 pid=342) INFO 07-18 05:14:00 [glm52_consensus_guard.py:345] GLM52_CONSENSUS_TELEMETRY {"divergence": 0, "gather_fails": 0, "inflight": [0, 0, 0, 0], "max_divergence_seen": 0, "mode": "observe", "poll": 142, "ras_fails": 0, "ras_spread": 0, "ras_strikes": 0, "step_rate_hz": 0.0, "steps": [189, 189, 189, 189], "strikes": 0}
+RAS_OPS 0xad06b9687882e0c:[323, 323, 323, 323] 0x13a4f499e2be25f4:[1, 1, 1, 1] 0x8348d78eab4d9655:[10883, 10883, 10883, 10883]
+STAGE-OK reps=3777 8s prompt_tokens=90648 completion_tokens=1
+=== STAGE reps=3919 (delta=142 reps ~3408 tok) start 2026-07-18T05:15:44Z ===
+[stage 3919 2026-07-18T05:15:57Z] (Worker_TP0 pid=342) INFO 07-18 05:15:01 [glm52_consensus_guard.py:345] GLM52_CONSENSUS_TELEMETRY {"divergence": 0, "gather_fails": 0, "inflight": [0, 0, 0, 0], "max_divergence_seen": 0, "mode": "observe", "poll": 154, "ras_fails": 0, "ras_spread": 0, "ras_strikes": 0, "step_rate_hz": 0.1, "steps": [195, 195, 195, 195], "strikes": 0}
+RAS_OPS 0xad06b9687882e0c:[333, 333, 333, 333] 0x13a4f499e2be25f4:[1, 1, 1, 1] 0x8348d78eab4d9655:[11221, 11221, 11221, 11221]
+STAGE-OK reps=3919 8s prompt_tokens=94056 completion_tokens=1
+=== STAGE reps=4061 (delta=142 reps ~3408 tok) start 2026-07-18T05:17:27Z ===

@@ -1,0 +1,636 @@
+=== STAGE reps=5 (delta=5 reps ~120 tok) start 2026-07-17T13:54:47Z ===
+STAGE-OK reps=5 1s prompt_tokens=120 completion_tokens=1
+=== STAGE reps=10 (delta=5 reps ~120 tok) start 2026-07-17T13:54:55Z ===
+STAGE-OK reps=10 1s prompt_tokens=240 completion_tokens=1
+=== STAGE reps=20 (delta=10 reps ~240 tok) start 2026-07-17T13:55:03Z ===
+STAGE-OK reps=20 1s prompt_tokens=480 completion_tokens=1
+=== STAGE reps=40 (delta=20 reps ~480 tok) start 2026-07-17T13:55:11Z ===
+STAGE-OK reps=40 1s prompt_tokens=960 completion_tokens=1
+=== STAGE reps=60 (delta=20 reps ~480 tok) start 2026-07-17T13:55:19Z ===
+STAGE-OK reps=60 1s prompt_tokens=1440 completion_tokens=1
+=== STAGE reps=85 (delta=25 reps ~600 tok) start 2026-07-17T13:55:27Z ===
+STAGE-OK reps=85 1s prompt_tokens=2040 completion_tokens=1
+=== STAGE reps=170 (delta=85 reps ~2040 tok) start 2026-07-17T13:55:35Z ===
+STAGE-OK reps=170 3s prompt_tokens=4080 completion_tokens=1
+=== STAGE reps=255 (delta=85 reps ~2040 tok) start 2026-07-17T13:55:43Z ===
+STAGE-OK reps=255 3s prompt_tokens=6120 completion_tokens=1
+=== STAGE reps=340 (delta=85 reps ~2040 tok) start 2026-07-17T13:55:51Z ===
+STAGE-OK reps=340 3s prompt_tokens=8160 completion_tokens=1
+=== STAGE reps=425 (delta=85 reps ~2040 tok) start 2026-07-17T13:55:59Z ===
+STAGE-OK reps=425 3s prompt_tokens=10200 completion_tokens=1
+=== STAGE reps=510 (delta=85 reps ~2040 tok) start 2026-07-17T13:56:07Z ===
+STAGE-OK reps=510 3s prompt_tokens=12240 completion_tokens=1
+=== STAGE reps=595 (delta=85 reps ~2040 tok) start 2026-07-17T13:56:15Z ===
+STAGE-OK reps=595 3s prompt_tokens=14280 completion_tokens=1
+=== STAGE reps=680 (delta=85 reps ~2040 tok) start 2026-07-17T13:56:23Z ===
+STAGE-OK reps=680 3s prompt_tokens=16320 completion_tokens=1
+=== STAGE reps=765 (delta=85 reps ~2040 tok) start 2026-07-17T13:56:31Z ===
+STAGE-OK reps=765 4s prompt_tokens=18360 completion_tokens=1
+=== STAGE reps=850 (delta=85 reps ~2040 tok) start 2026-07-17T13:56:39Z ===
+STAGE-OK reps=850 4s prompt_tokens=20400 completion_tokens=1
+=== STAGE reps=935 (delta=85 reps ~2040 tok) start 2026-07-17T13:56:47Z ===
+STAGE-OK reps=935 4s prompt_tokens=22440 completion_tokens=1
+=== STAGE reps=1020 (delta=85 reps ~2040 tok) start 2026-07-17T13:56:55Z ===
+STAGE-OK reps=1020 4s prompt_tokens=24480 completion_tokens=1
+=== STAGE reps=1105 (delta=85 reps ~2040 tok) start 2026-07-17T13:57:03Z ===
+STAGE-OK reps=1105 4s prompt_tokens=26520 completion_tokens=1
+=== STAGE reps=1190 (delta=85 reps ~2040 tok) start 2026-07-17T13:57:11Z ===
+STAGE-OK reps=1190 4s prompt_tokens=28560 completion_tokens=1
+=== STAGE reps=1275 (delta=85 reps ~2040 tok) start 2026-07-17T13:57:19Z ===
+STAGE-OK reps=1275 4s prompt_tokens=30600 completion_tokens=1
+=== STAGE reps=1360 (delta=85 reps ~2040 tok) start 2026-07-17T13:57:27Z ===
+STAGE-OK reps=1360 4s prompt_tokens=32640 completion_tokens=1
+=== STAGE reps=1445 (delta=85 reps ~2040 tok) start 2026-07-17T13:57:35Z ===
+STAGE-OK reps=1445 4s prompt_tokens=34680 completion_tokens=1
+=== STAGE reps=1530 (delta=85 reps ~2040 tok) start 2026-07-17T13:57:43Z ===
+STAGE-OK reps=1530 4s prompt_tokens=36720 completion_tokens=1
+=== STAGE reps=1615 (delta=85 reps ~2040 tok) start 2026-07-17T13:57:51Z ===
+STAGE-OK reps=1615 4s prompt_tokens=38760 completion_tokens=1
+=== STAGE reps=1700 (delta=85 reps ~2040 tok) start 2026-07-17T13:57:59Z ===
+STAGE-OK reps=1700 4s prompt_tokens=40800 completion_tokens=1
+=== STAGE reps=1785 (delta=85 reps ~2040 tok) start 2026-07-17T13:58:07Z ===
+STAGE-OK reps=1785 4s prompt_tokens=42840 completion_tokens=1
+=== STAGE reps=1870 (delta=85 reps ~2040 tok) start 2026-07-17T13:58:15Z ===
+STAGE-OK reps=1870 4s prompt_tokens=44880 completion_tokens=1
+=== STAGE reps=1955 (delta=85 reps ~2040 tok) start 2026-07-17T13:58:23Z ===
+STAGE-OK reps=1955 4s prompt_tokens=46920 completion_tokens=1
+=== STAGE reps=2040 (delta=85 reps ~2040 tok) start 2026-07-17T13:58:31Z ===
+STAGE-OK reps=2040 4s prompt_tokens=48960 completion_tokens=1
+=== STAGE reps=2125 (delta=85 reps ~2040 tok) start 2026-07-17T13:58:39Z ===
+STAGE-OK reps=2125 4s prompt_tokens=51000 completion_tokens=1
+=== STAGE reps=2210 (delta=85 reps ~2040 tok) start 2026-07-17T13:58:47Z ===
+STAGE-OK reps=2210 5s prompt_tokens=53040 completion_tokens=1
+=== STAGE reps=2295 (delta=85 reps ~2040 tok) start 2026-07-17T13:58:55Z ===
+STAGE-OK reps=2295 5s prompt_tokens=55080 completion_tokens=1
+=== STAGE reps=2380 (delta=85 reps ~2040 tok) start 2026-07-17T13:59:03Z ===
+STAGE-OK reps=2380 5s prompt_tokens=57120 completion_tokens=1
+=== STAGE reps=2465 (delta=85 reps ~2040 tok) start 2026-07-17T13:59:11Z ===
+STAGE-OK reps=2465 5s prompt_tokens=59160 completion_tokens=1
+=== STAGE reps=2550 (delta=85 reps ~2040 tok) start 2026-07-17T13:59:19Z ===
+STAGE-OK reps=2550 5s prompt_tokens=61200 completion_tokens=1
+=== STAGE reps=2635 (delta=85 reps ~2040 tok) start 2026-07-17T13:59:27Z ===
+STAGE-OK reps=2635 5s prompt_tokens=63240 completion_tokens=1
+=== STAGE reps=2720 (delta=85 reps ~2040 tok) start 2026-07-17T13:59:35Z ===
+STAGE-OK reps=2720 5s prompt_tokens=65280 completion_tokens=1
+=== STAGE reps=2805 (delta=85 reps ~2040 tok) start 2026-07-17T13:59:43Z ===
+STAGE-OK reps=2805 5s prompt_tokens=67320 completion_tokens=1
+=== STAGE reps=2890 (delta=85 reps ~2040 tok) start 2026-07-17T13:59:51Z ===
+STAGE-OK reps=2890 5s prompt_tokens=69360 completion_tokens=1
+=== STAGE reps=2975 (delta=85 reps ~2040 tok) start 2026-07-17T13:59:59Z ===
+STAGE-OK reps=2975 5s prompt_tokens=71400 completion_tokens=1
+=== STAGE reps=3060 (delta=85 reps ~2040 tok) start 2026-07-17T14:00:07Z ===
+STAGE-OK reps=3060 5s prompt_tokens=73440 completion_tokens=1
+=== STAGE reps=3145 (delta=85 reps ~2040 tok) start 2026-07-17T14:00:15Z ===
+STAGE-OK reps=3145 5s prompt_tokens=75480 completion_tokens=1
+=== STAGE reps=3230 (delta=85 reps ~2040 tok) start 2026-07-17T14:00:23Z ===
+STAGE-OK reps=3230 5s prompt_tokens=77520 completion_tokens=1
+=== STAGE reps=3315 (delta=85 reps ~2040 tok) start 2026-07-17T14:00:31Z ===
+STAGE-OK reps=3315 5s prompt_tokens=79560 completion_tokens=1
+=== STAGE reps=3400 (delta=85 reps ~2040 tok) start 2026-07-17T14:00:39Z ===
+STAGE-OK reps=3400 5s prompt_tokens=81600 completion_tokens=1
+=== STAGE reps=3485 (delta=85 reps ~2040 tok) start 2026-07-17T14:00:47Z ===
+STAGE-OK reps=3485 5s prompt_tokens=83640 completion_tokens=1
+=== STAGE reps=3570 (delta=85 reps ~2040 tok) start 2026-07-17T14:00:55Z ===
+STAGE-OK reps=3570 5s prompt_tokens=85680 completion_tokens=1
+=== STAGE reps=3655 (delta=85 reps ~2040 tok) start 2026-07-17T14:01:03Z ===
+STAGE-OK reps=3655 5s prompt_tokens=87720 completion_tokens=1
+=== STAGE reps=3740 (delta=85 reps ~2040 tok) start 2026-07-17T14:01:11Z ===
+STAGE-OK reps=3740 5s prompt_tokens=89760 completion_tokens=1
+=== STAGE reps=3825 (delta=85 reps ~2040 tok) start 2026-07-17T14:01:19Z ===
+STAGE-OK reps=3825 5s prompt_tokens=91800 completion_tokens=1
+=== STAGE reps=3910 (delta=85 reps ~2040 tok) start 2026-07-17T14:01:27Z ===
+STAGE-OK reps=3910 5s prompt_tokens=93840 completion_tokens=1
+=== STAGE reps=3995 (delta=85 reps ~2040 tok) start 2026-07-17T14:01:35Z ===
+STAGE-OK reps=3995 5s prompt_tokens=95880 completion_tokens=1
+=== STAGE reps=4080 (delta=85 reps ~2040 tok) start 2026-07-17T14:01:43Z ===
+STAGE-OK reps=4080 5s prompt_tokens=97920 completion_tokens=1
+=== STAGE reps=4165 (delta=85 reps ~2040 tok) start 2026-07-17T14:01:51Z ===
+STAGE-OK reps=4165 5s prompt_tokens=99960 completion_tokens=1
+=== STAGE reps=4250 (delta=85 reps ~2040 tok) start 2026-07-17T14:01:59Z ===
+STAGE-OK reps=4250 6s prompt_tokens=102000 completion_tokens=1
+=== STAGE reps=4335 (delta=85 reps ~2040 tok) start 2026-07-17T14:02:07Z ===
+STAGE-OK reps=4335 6s prompt_tokens=104040 completion_tokens=1
+=== STAGE reps=4420 (delta=85 reps ~2040 tok) start 2026-07-17T14:02:15Z ===
+STAGE-OK reps=4420 6s prompt_tokens=106080 completion_tokens=1
+=== STAGE reps=4505 (delta=85 reps ~2040 tok) start 2026-07-17T14:02:23Z ===
+STAGE-OK reps=4505 6s prompt_tokens=108120 completion_tokens=1
+=== STAGE reps=4590 (delta=85 reps ~2040 tok) start 2026-07-17T14:02:31Z ===
+STAGE-OK reps=4590 6s prompt_tokens=110160 completion_tokens=1
+=== STAGE reps=4675 (delta=85 reps ~2040 tok) start 2026-07-17T14:02:39Z ===
+STAGE-OK reps=4675 6s prompt_tokens=112200 completion_tokens=1
+=== STAGE reps=4760 (delta=85 reps ~2040 tok) start 2026-07-17T14:02:47Z ===
+STAGE-OK reps=4760 6s prompt_tokens=114240 completion_tokens=1
+=== STAGE reps=4845 (delta=85 reps ~2040 tok) start 2026-07-17T14:02:55Z ===
+STAGE-OK reps=4845 6s prompt_tokens=116280 completion_tokens=1
+=== STAGE reps=4930 (delta=85 reps ~2040 tok) start 2026-07-17T14:03:03Z ===
+STAGE-OK reps=4930 6s prompt_tokens=118320 completion_tokens=1
+=== STAGE reps=4994 (delta=64 reps ~1536 tok) start 2026-07-17T14:03:11Z ===
+STAGE-OK reps=4994 5s prompt_tokens=119856 completion_tokens=1
+=== FINE CLIMB COMPLETE 2026-07-17T14:03:19Z -- FIRING boundary-soak.py 30 on warm cache ===
+calibrate: reps=4995 tokens=119880
+prompt_tokens=119880 max_tokens=120 (boundary steps: seq 119997..120000)
+[1/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[2/30] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[3/30] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[4/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[5/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[6/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[7/30] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[8/30] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[9/30] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[10/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[11/30] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[12/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[13/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[14/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[15/30] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[16/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[17/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[18/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[19/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[20/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[21/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[22/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[23/30] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[24/30] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[25/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[26/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[27/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[28/30] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[29/30] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[30/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+soak complete: now grep all 4 ranks for GLM52_DRAFTER skip / GLM52_GATE lines (reachability + divergence readout)
+=== SOAK DONE rc=0 2026-07-17T14:05:40Z ===
+calibrate: reps=4995 tokens=119880
+prompt_tokens=119880 max_tokens=120 (boundary steps: seq 119997..120000)
+[1/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[2/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[3/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[4/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[5/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[6/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[7/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[8/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[9/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[10/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[11/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[12/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[13/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[14/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[15/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[16/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[17/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[18/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[19/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[20/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[21/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[22/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[23/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[24/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[25/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[26/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[27/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[28/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[29/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[30/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[31/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[32/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[33/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[34/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[35/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[36/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[37/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[38/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[39/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[40/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[41/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[42/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[43/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[44/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[45/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[46/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[47/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[48/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[49/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[50/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[51/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[52/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[53/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[54/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[55/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[56/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[57/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[58/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[59/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[60/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[61/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[62/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[63/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[64/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[65/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[66/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[67/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[68/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[69/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[70/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[71/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[72/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[73/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[74/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[75/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[76/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[77/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[78/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[79/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[80/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[81/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[82/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[83/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[84/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[85/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[86/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[87/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[88/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[89/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[90/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[91/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[92/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[93/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[94/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[95/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[96/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[97/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[98/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[99/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[100/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[101/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[102/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[103/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[104/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[105/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[106/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[107/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[108/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[109/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[110/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[111/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[112/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[113/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[114/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[115/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[116/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[117/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[118/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[119/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[120/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[121/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[122/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[123/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[124/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[125/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[126/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[127/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[128/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[129/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[130/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[131/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[132/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[133/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[134/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[135/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[136/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[137/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[138/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[139/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[140/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[141/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[142/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[143/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[144/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[145/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[146/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[147/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[148/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[149/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[150/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[151/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[152/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[153/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[154/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[155/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[156/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[157/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[158/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[159/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[160/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[161/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[162/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[163/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[164/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[165/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[166/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[167/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[168/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[169/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[170/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[171/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[172/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[173/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[174/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[175/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[176/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[177/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[178/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[179/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[180/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[181/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[182/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[183/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[184/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[185/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[186/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[187/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[188/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[189/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[190/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[191/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[192/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[193/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[194/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[195/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[196/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[197/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[198/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[199/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[200/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[201/470] ok 5s completion_tokens=120 finish=length tail='odes with tensor parallel collectives on every layer of the '
+[202/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[203/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[204/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[205/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[206/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[207/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[208/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[209/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[210/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[211/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[212/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[213/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[214/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[215/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[216/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[217/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[218/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[219/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[220/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[221/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[222/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[223/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[224/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[225/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[226/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[227/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[228/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[229/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[230/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[231/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[232/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[233/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[234/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[235/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[236/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[237/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[238/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[239/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[240/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[241/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[242/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[243/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[244/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[245/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[246/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[247/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[248/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[249/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[250/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[251/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[252/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[253/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[254/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[255/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[256/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[257/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[258/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[259/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[260/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[261/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[262/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[263/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[264/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[265/470] ok 6s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[266/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[267/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[268/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[269/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[270/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[271/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[272/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[273/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[274/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[275/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[276/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[277/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[278/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[279/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[280/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[281/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[282/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[283/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[284/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[285/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[286/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[287/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[288/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[289/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[290/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[291/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[292/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[293/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[294/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[295/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[296/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[297/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[298/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[299/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[300/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[301/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[302/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[303/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[304/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[305/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[306/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[307/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[308/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[309/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[310/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[311/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[312/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[313/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[314/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[315/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[316/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[317/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[318/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[319/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[320/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[321/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[322/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[323/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[324/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[325/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[326/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[327/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[328/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[329/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[330/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[331/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[332/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[333/470] ok 5s completion_tokens=120 finish=length tail='four nodes.\ti can count the kernels one yellow two red three'
+[334/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[335/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[336/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[337/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[338/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[339/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[340/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[341/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[342/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[343/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[344/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[345/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[346/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[347/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[348/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[349/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[350/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[351/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[352/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[353/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[354/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[355/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[356/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[357/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[358/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[359/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[360/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[361/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[362/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[363/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[364/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[365/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[366/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[367/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[368/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[369/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[370/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[371/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[372/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[373/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[374/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[375/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[376/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[377/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[378/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[379/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[380/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[381/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[382/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[383/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[384/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[385/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[386/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[387/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[388/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[389/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[390/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[391/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[392/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[393/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[394/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[395/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[396/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[397/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[398/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[399/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[400/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[401/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[402/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[403/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[404/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[405/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[406/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[407/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[408/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[409/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[410/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[411/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[412/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[413/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[414/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[415/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[416/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[417/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[418/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[419/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[420/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[421/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[422/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[423/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[424/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[425/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[426/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[427/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[428/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[429/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[430/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[431/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[432/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[433/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[434/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[435/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[436/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[437/470] ok 4s completion_tokens=120 finish=length tail=' model across four nodes with tensor parallel collectives on'
+[438/470] ok 6s completion_tokens=120 finish=length tail='input]...\n\n</think>The loser algorithm is easily the coolest'
+[439/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[440/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[441/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[442/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[443/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[444/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[445/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[446/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[447/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[448/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[449/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[450/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[451/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[452/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[453/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[454/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[455/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[456/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[457/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[458/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[459/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[460/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[461/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[462/470] ok 4s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[463/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[464/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[465/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[466/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[467/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[468/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[469/470] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[470/470] ok 11s completion_tokens=120 finish=length tail='meric cultivate疆 cały рацион    \n\tentity Multiply Spells肺分泌泻'
+soak complete: now grep all 4 ranks for GLM52_DRAFTER skip / GLM52_GATE lines (reachability + divergence readout)

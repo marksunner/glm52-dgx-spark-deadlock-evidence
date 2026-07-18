@@ -1,0 +1,163 @@
+=== STAGE reps=5 (delta=5 reps ~120 tok) start 2026-07-17T13:09:17Z ===
+STAGE-OK reps=5 1s prompt_tokens=120 completion_tokens=1
+=== STAGE reps=10 (delta=5 reps ~120 tok) start 2026-07-17T13:09:25Z ===
+STAGE-OK reps=10 1s prompt_tokens=240 completion_tokens=1
+=== STAGE reps=20 (delta=10 reps ~240 tok) start 2026-07-17T13:09:33Z ===
+STAGE-OK reps=20 1s prompt_tokens=480 completion_tokens=1
+=== STAGE reps=40 (delta=20 reps ~480 tok) start 2026-07-17T13:09:41Z ===
+STAGE-OK reps=40 1s prompt_tokens=960 completion_tokens=1
+=== STAGE reps=60 (delta=20 reps ~480 tok) start 2026-07-17T13:09:49Z ===
+STAGE-OK reps=60 1s prompt_tokens=1440 completion_tokens=1
+=== STAGE reps=85 (delta=25 reps ~600 tok) start 2026-07-17T13:09:57Z ===
+STAGE-OK reps=85 1s prompt_tokens=2040 completion_tokens=1
+=== STAGE reps=170 (delta=85 reps ~2040 tok) start 2026-07-17T13:10:05Z ===
+STAGE-OK reps=170 3s prompt_tokens=4080 completion_tokens=1
+=== STAGE reps=255 (delta=85 reps ~2040 tok) start 2026-07-17T13:10:13Z ===
+STAGE-OK reps=255 3s prompt_tokens=6120 completion_tokens=1
+=== STAGE reps=340 (delta=85 reps ~2040 tok) start 2026-07-17T13:10:21Z ===
+STAGE-OK reps=340 3s prompt_tokens=8160 completion_tokens=1
+=== STAGE reps=425 (delta=85 reps ~2040 tok) start 2026-07-17T13:10:29Z ===
+STAGE-OK reps=425 3s prompt_tokens=10200 completion_tokens=1
+=== STAGE reps=510 (delta=85 reps ~2040 tok) start 2026-07-17T13:10:37Z ===
+STAGE-OK reps=510 3s prompt_tokens=12240 completion_tokens=1
+=== STAGE reps=595 (delta=85 reps ~2040 tok) start 2026-07-17T13:10:45Z ===
+STAGE-OK reps=595 3s prompt_tokens=14280 completion_tokens=1
+=== STAGE reps=680 (delta=85 reps ~2040 tok) start 2026-07-17T13:10:53Z ===
+STAGE-OK reps=680 3s prompt_tokens=16320 completion_tokens=1
+=== STAGE reps=765 (delta=85 reps ~2040 tok) start 2026-07-17T13:11:01Z ===
+STAGE-OK reps=765 4s prompt_tokens=18360 completion_tokens=1
+=== STAGE reps=850 (delta=85 reps ~2040 tok) start 2026-07-17T13:11:09Z ===
+STAGE-OK reps=850 4s prompt_tokens=20400 completion_tokens=1
+=== STAGE reps=935 (delta=85 reps ~2040 tok) start 2026-07-17T13:11:17Z ===
+STAGE-OK reps=935 4s prompt_tokens=22440 completion_tokens=1
+=== STAGE reps=1020 (delta=85 reps ~2040 tok) start 2026-07-17T13:11:25Z ===
+STAGE-OK reps=1020 4s prompt_tokens=24480 completion_tokens=1
+=== STAGE reps=1105 (delta=85 reps ~2040 tok) start 2026-07-17T13:11:33Z ===
+STAGE-OK reps=1105 4s prompt_tokens=26520 completion_tokens=1
+=== STAGE reps=1190 (delta=85 reps ~2040 tok) start 2026-07-17T13:11:41Z ===
+STAGE-OK reps=1190 4s prompt_tokens=28560 completion_tokens=1
+=== STAGE reps=1275 (delta=85 reps ~2040 tok) start 2026-07-17T13:11:49Z ===
+STAGE-OK reps=1275 4s prompt_tokens=30600 completion_tokens=1
+=== STAGE reps=1360 (delta=85 reps ~2040 tok) start 2026-07-17T13:11:57Z ===
+STAGE-OK reps=1360 4s prompt_tokens=32640 completion_tokens=1
+=== STAGE reps=1445 (delta=85 reps ~2040 tok) start 2026-07-17T13:12:05Z ===
+STAGE-OK reps=1445 4s prompt_tokens=34680 completion_tokens=1
+=== STAGE reps=1530 (delta=85 reps ~2040 tok) start 2026-07-17T13:12:13Z ===
+STAGE-OK reps=1530 4s prompt_tokens=36720 completion_tokens=1
+=== STAGE reps=1615 (delta=85 reps ~2040 tok) start 2026-07-17T13:12:21Z ===
+STAGE-OK reps=1615 4s prompt_tokens=38760 completion_tokens=1
+=== STAGE reps=1700 (delta=85 reps ~2040 tok) start 2026-07-17T13:12:29Z ===
+STAGE-OK reps=1700 4s prompt_tokens=40800 completion_tokens=1
+=== STAGE reps=1785 (delta=85 reps ~2040 tok) start 2026-07-17T13:12:37Z ===
+STAGE-OK reps=1785 4s prompt_tokens=42840 completion_tokens=1
+=== STAGE reps=1870 (delta=85 reps ~2040 tok) start 2026-07-17T13:12:45Z ===
+STAGE-OK reps=1870 4s prompt_tokens=44880 completion_tokens=1
+=== STAGE reps=1955 (delta=85 reps ~2040 tok) start 2026-07-17T13:12:53Z ===
+STAGE-OK reps=1955 4s prompt_tokens=46920 completion_tokens=1
+=== STAGE reps=2040 (delta=85 reps ~2040 tok) start 2026-07-17T13:13:01Z ===
+STAGE-OK reps=2040 4s prompt_tokens=48960 completion_tokens=1
+=== STAGE reps=2125 (delta=85 reps ~2040 tok) start 2026-07-17T13:13:09Z ===
+STAGE-OK reps=2125 4s prompt_tokens=51000 completion_tokens=1
+=== STAGE reps=2210 (delta=85 reps ~2040 tok) start 2026-07-17T13:13:17Z ===
+STAGE-OK reps=2210 5s prompt_tokens=53040 completion_tokens=1
+=== STAGE reps=2295 (delta=85 reps ~2040 tok) start 2026-07-17T13:13:25Z ===
+STAGE-OK reps=2295 5s prompt_tokens=55080 completion_tokens=1
+=== STAGE reps=2380 (delta=85 reps ~2040 tok) start 2026-07-17T13:13:33Z ===
+STAGE-OK reps=2380 5s prompt_tokens=57120 completion_tokens=1
+=== STAGE reps=2465 (delta=85 reps ~2040 tok) start 2026-07-17T13:13:41Z ===
+STAGE-OK reps=2465 5s prompt_tokens=59160 completion_tokens=1
+=== STAGE reps=2550 (delta=85 reps ~2040 tok) start 2026-07-17T13:13:49Z ===
+STAGE-OK reps=2550 5s prompt_tokens=61200 completion_tokens=1
+=== STAGE reps=2635 (delta=85 reps ~2040 tok) start 2026-07-17T13:13:57Z ===
+STAGE-OK reps=2635 5s prompt_tokens=63240 completion_tokens=1
+=== STAGE reps=2720 (delta=85 reps ~2040 tok) start 2026-07-17T13:14:05Z ===
+STAGE-OK reps=2720 5s prompt_tokens=65280 completion_tokens=1
+=== STAGE reps=2805 (delta=85 reps ~2040 tok) start 2026-07-17T13:14:13Z ===
+STAGE-OK reps=2805 5s prompt_tokens=67320 completion_tokens=1
+=== STAGE reps=2890 (delta=85 reps ~2040 tok) start 2026-07-17T13:14:21Z ===
+STAGE-OK reps=2890 5s prompt_tokens=69360 completion_tokens=1
+=== STAGE reps=2975 (delta=85 reps ~2040 tok) start 2026-07-17T13:14:29Z ===
+STAGE-OK reps=2975 5s prompt_tokens=71400 completion_tokens=1
+=== STAGE reps=3060 (delta=85 reps ~2040 tok) start 2026-07-17T13:14:37Z ===
+STAGE-OK reps=3060 5s prompt_tokens=73440 completion_tokens=1
+=== STAGE reps=3145 (delta=85 reps ~2040 tok) start 2026-07-17T13:14:45Z ===
+STAGE-OK reps=3145 5s prompt_tokens=75480 completion_tokens=1
+=== STAGE reps=3230 (delta=85 reps ~2040 tok) start 2026-07-17T13:14:53Z ===
+STAGE-OK reps=3230 5s prompt_tokens=77520 completion_tokens=1
+=== STAGE reps=3315 (delta=85 reps ~2040 tok) start 2026-07-17T13:15:01Z ===
+STAGE-OK reps=3315 5s prompt_tokens=79560 completion_tokens=1
+=== STAGE reps=3400 (delta=85 reps ~2040 tok) start 2026-07-17T13:15:09Z ===
+STAGE-OK reps=3400 5s prompt_tokens=81600 completion_tokens=1
+=== STAGE reps=3485 (delta=85 reps ~2040 tok) start 2026-07-17T13:15:17Z ===
+STAGE-OK reps=3485 5s prompt_tokens=83640 completion_tokens=1
+=== STAGE reps=3570 (delta=85 reps ~2040 tok) start 2026-07-17T13:15:25Z ===
+STAGE-OK reps=3570 5s prompt_tokens=85680 completion_tokens=1
+=== STAGE reps=3655 (delta=85 reps ~2040 tok) start 2026-07-17T13:15:33Z ===
+STAGE-OK reps=3655 5s prompt_tokens=87720 completion_tokens=1
+=== STAGE reps=3740 (delta=85 reps ~2040 tok) start 2026-07-17T13:15:41Z ===
+STAGE-OK reps=3740 5s prompt_tokens=89760 completion_tokens=1
+=== STAGE reps=3825 (delta=85 reps ~2040 tok) start 2026-07-17T13:15:49Z ===
+STAGE-OK reps=3825 5s prompt_tokens=91800 completion_tokens=1
+=== STAGE reps=3910 (delta=85 reps ~2040 tok) start 2026-07-17T13:15:57Z ===
+STAGE-OK reps=3910 5s prompt_tokens=93840 completion_tokens=1
+=== STAGE reps=3995 (delta=85 reps ~2040 tok) start 2026-07-17T13:16:05Z ===
+STAGE-OK reps=3995 5s prompt_tokens=95880 completion_tokens=1
+=== STAGE reps=4080 (delta=85 reps ~2040 tok) start 2026-07-17T13:16:13Z ===
+STAGE-OK reps=4080 5s prompt_tokens=97920 completion_tokens=1
+=== STAGE reps=4165 (delta=85 reps ~2040 tok) start 2026-07-17T13:16:21Z ===
+STAGE-OK reps=4165 5s prompt_tokens=99960 completion_tokens=1
+=== STAGE reps=4250 (delta=85 reps ~2040 tok) start 2026-07-17T13:16:29Z ===
+STAGE-OK reps=4250 6s prompt_tokens=102000 completion_tokens=1
+=== STAGE reps=4335 (delta=85 reps ~2040 tok) start 2026-07-17T13:16:37Z ===
+STAGE-OK reps=4335 6s prompt_tokens=104040 completion_tokens=1
+=== STAGE reps=4420 (delta=85 reps ~2040 tok) start 2026-07-17T13:16:45Z ===
+STAGE-OK reps=4420 6s prompt_tokens=106080 completion_tokens=1
+=== STAGE reps=4505 (delta=85 reps ~2040 tok) start 2026-07-17T13:16:53Z ===
+STAGE-OK reps=4505 6s prompt_tokens=108120 completion_tokens=1
+=== STAGE reps=4590 (delta=85 reps ~2040 tok) start 2026-07-17T13:17:01Z ===
+STAGE-OK reps=4590 6s prompt_tokens=110160 completion_tokens=1
+=== STAGE reps=4675 (delta=85 reps ~2040 tok) start 2026-07-17T13:17:09Z ===
+STAGE-OK reps=4675 6s prompt_tokens=112200 completion_tokens=1
+=== STAGE reps=4760 (delta=85 reps ~2040 tok) start 2026-07-17T13:17:17Z ===
+STAGE-OK reps=4760 6s prompt_tokens=114240 completion_tokens=1
+=== STAGE reps=4845 (delta=85 reps ~2040 tok) start 2026-07-17T13:17:25Z ===
+STAGE-OK reps=4845 6s prompt_tokens=116280 completion_tokens=1
+=== STAGE reps=4930 (delta=85 reps ~2040 tok) start 2026-07-17T13:17:33Z ===
+STAGE-OK reps=4930 6s prompt_tokens=118320 completion_tokens=1
+=== STAGE reps=4994 (delta=64 reps ~1536 tok) start 2026-07-17T13:17:41Z ===
+STAGE-OK reps=4994 5s prompt_tokens=119856 completion_tokens=1
+=== FINE CLIMB COMPLETE 2026-07-17T13:17:49Z -- FIRING boundary-soak.py 30 on warm cache ===
+calibrate: reps=4995 tokens=119880
+prompt_tokens=119880 max_tokens=120 (boundary steps: seq 119997..120000)
+[1/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[2/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[3/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[4/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[5/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[6/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[7/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[8/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[9/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[10/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[11/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[12/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[13/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[14/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[15/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[16/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[17/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[18/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[19/30] ok 13s completion_tokens=120 finish=length tail=" CNBCiendeservername called ')' letras Jaimenię-tax Detailed"
+[20/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[21/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[22/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[23/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[24/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[25/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[26/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[27/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[28/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[29/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+[30/30] ok 5s completion_tokens=120 finish=length tail='with tensor parallel collectives on every layer of the stack'
+soak complete: now grep all 4 ranks for GLM52_DRAFTER skip / GLM52_GATE lines (reachability + divergence readout)
+=== SOAK DONE rc=0 2026-07-17T13:20:19Z ===

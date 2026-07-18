@@ -1,0 +1,4 @@
+calibrate: reps=8328 tokens=199872
+prompt_tokens=199872 max_tokens=128 (boundary steps: seq 199997..200000)
+[1/1] ok 5s completion_tokens=128 finish=length tail='[redacted: model-generated text named the cluster; coherent continuation, other fields verbatim]'
+soak complete: now grep all 4 ranks for GLM52_DRAFTER skip / GLM52_GATE lines (reachability + divergence readout)

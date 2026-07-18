@@ -1,0 +1,100 @@
+frame #1: <unknown function> + 0x66f513c (0xf24530ae513c in /usr/local/lib/python3.12/dist-packages/torch/lib/libtorch_cpu.so)
+frame #2: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x1a4 (0xf24530aee294 in /usr/local/lib/python3.12/dist-packages/torch/lib/libtorch_cpu.so)
+frame #3: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x380 (0xf2451576db30 in /usr/local/lib/python3.12/dist-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xe1ae0 (0xf245ba8b1ae0 in /lib/aarch64-linux-gnu/libstdc++.so.6)
+frame #5: <unknown function> + 0x8595c (0xf245bab7595c in /lib/aarch64-linux-gnu/libc.so.6)
+frame #6: <unknown function> + 0xeb89c (0xf245babdb89c in /lib/aarch64-linux-gnu/libc.so.6)
+
+[rank3]:[W716 13:09:45.145014823 ProcessGroupNCCL.cpp:1826] [PG ID 0 PG GUID 0 Rank 3] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Broken pipe
+(Worker_TP3 pid=283) ERROR 07-16 13:09:45 [glm52_watchdog.py:133] glm52_watchdog rank=3: gloo gather failed (3/3): [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:547] Connection closed by peer [<node-rank0>]:49347
+Thread 0x0000f240e7dfa8c0 (most recent call first):
+  File "/usr/lib/python3.12/threading.py", line 359 in wait
+  File "/usr/lib/python3.12/threading.py", line 655 in wait
+  File "/usr/local/lib/python3.12/dist-packages/tqdm/_monitor.py", line 69 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x0000f241e17b48c0 (most recent call first):
+  File "/usr/lib/python3.12/multiprocessing/connection.py", line 395 in _recv
+  File "/usr/lib/python3.12/multiprocessing/connection.py", line 430 in _recv_bytes
+  File "/usr/lib/python3.12/multiprocessing/connection.py", line 250 in recv
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/multiproc_executor.py", line 796 in death_pipe_monitor
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x0000f241e1fc48c0 (most recent call first):
+  File "/usr/local/lib/python3.12/dist-packages/glm52_consensus_guard.py", line 259 in _consensus_loop
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Current thread 0x0000f241e40048c0 (most recent call first):
+  File "/usr/local/lib/python3.12/dist-packages/glm52_watchdog.py", line 212 in _trigger_abort
+  File "/usr/local/lib/python3.12/dist-packages/glm52_watchdog.py", line 136 in _gloo_loop
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x0000f241e48148c0 (most recent call first):
+  File "/usr/local/lib/python3.12/dist-packages/glm52_watchdog.py", line 107 in _local_loop
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x0000f241e88948c0 (most recent call first):
+  File "/usr/lib/python3.12/threading.py", line 355 in wait
+  File "/usr/lib/python3.12/queue.py", line 171 in get
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/multiproc_executor.py", line 988 in async_output_busy_loop
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x0000f2420ca4e8c0 (most recent call first):
+  File "/usr/lib/python3.12/threading.py", line 359 in wait
+  File "/usr/lib/python3.12/threading.py", line 655 in wait
+  File "/usr/local/lib/python3.12/dist-packages/tqdm/_monitor.py", line 69 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x0000f245bade98c0 (most recent call first):
+  File "/usr/local/lib/python3.12/dist-packages/torch/_ops.py", line 865 in __call__
+  File "<container-cache>/vllm/torch_compile_cache/torch_aot_compile/5645ffdab46d273ef043225cf9fcede578d2890670c1218c1e754c70be9dacd7/inductor_cache/ho/chomp6ad6ueswsrlk34bqshzcvyfet2vkk3hwslm7ypp3r6p6qj3.py", line 1906 in call
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/utils.py", line 3401 in run
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/output_code.py", line 656 in __call__
+  File "/usr/local/lib/python3.12/dist-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 1011 in inner_fn
+  File "/usr/local/lib/python3.12/dist-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 783 in wrapper
+  File "/usr/local/lib/python3.12/dist-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2298 in __call__
+  File "/usr/local/lib/python3.12/dist-packages/torch/_functorch/_aot_autograd/utils.py", line 138 in call_func_at_runtime_with_args
+  File "/usr/local/lib/python3.12/dist-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 580 in runtime_wrapper
+  File "/usr/local/lib/python3.12/dist-packages/torch/_functorch/aot_autograd.py", line 1200 in forward
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/eval_frame.py", line 1263 in _fn
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/standalone_compile.py", line 122 in __call__
+  File "/usr/local/lib/python3.12/dist-packages/vllm/compilation/piecewise_backend.py", line 380 in __call__
+  File "<string>", line 1015 in execution_fn
+  File "/usr/local/lib/python3.12/dist-packages/vllm/compilation/caching.py", line 217 in __call__
+  File "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/models/deepseek_v2.py", line 1327 in forward
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/aot_compile.py", line 224 in __call__
+  File "/usr/local/lib/python3.12/dist-packages/vllm/compilation/decorators.py", line 520 in __call__
+  File "/usr/local/lib/python3.12/dist-packages/vllm/model_executor/models/deepseek_v2.py", line 1754 in forward
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1790 in _call_impl
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1779 in _wrapped_call_impl
+  File "/usr/local/lib/python3.12/dist-packages/vllm/compilation/cuda_graph.py", line 254 in __call__
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/worker/gpu_model_runner.py", line 3925 in _model_forward
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/worker/gpu_model_runner.py", line 4720 in execute_model
+  File "/usr/local/lib/python3.12/dist-packages/torch/utils/_contextlib.py", line 124 in decorate_context
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/worker/gpu_worker.py", line 1063 in execute_model
+  File "/usr/local/lib/python3.12/dist-packages/torch/utils/_contextlib.py", line 124 in decorate_context
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/worker/worker_base.py", line 351 in execute_model
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/multiproc_executor.py", line 1008 in worker_busy_loop
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/multiproc_executor.py", line 897 in worker_main
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108 in run
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314 in _bootstrap
+  File "/usr/lib/python3.12/multiprocessing/spawn.py", line 135 in _main
+  File "/usr/lib/python3.12/multiprocessing/spawn.py", line 122 in spawn_main
+  File "<string>", line 1 in <module>
+(Worker_TP3 pid=283) ERROR 07-16 13:09:45 [glm52_watchdog.py:193] GLM52_RAS_DUMP rank=3 trigger='gloo: gather failed 3x (peer dead or wedged)' {"communicators": [{"hash": "0x1a128d9f12cbb81", "missing": 1, "ranks": [{"counts": {"AllGather": 0, "AllReduce": 1, "Broadcast": 0, "Reduce": 0, "ReduceScatter": 0}, "rank": 1, "status": {"abort_flag": false, "async_error": 0, "destroy_flag": false, "finalize_called": false, "init_state": 0}, "total": 1}, {"counts": {"AllGather": 0, "AllReduce": 1, "Broadcast": 0, "Reduce": 0, "ReduceScatter": 0}, "rank": 2, "status": {"abort_flag": false, "async_error": 0, "destroy_flag": false, "finalize_called": false, "init_state": 0}, "total": 1}, {"counts": {"AllGather": 0, "AllReduce": 1, "Broadcast": 0, "Reduce": 0, "ReduceScatter": 0}, "rank": 3, "status": {"abort_flag": false, "async_error": 0, "destroy_flag": false, "finalize_called": false, "init_state": 0}, "total": 1}], "size": 4}, {"hash": "0xfcf2e8aad4f93150", "missing": 1, "ranks": [{"counts": {"AllGather": 538, "AllReduce": 0, "Broadcast": 0, "Reduce": 0, "ReduceScatter": 0}, "rank": 1, "status": {"abort_flag": false, "async_error": 0, "destroy_flag": false, "finalize_called": false, "init_state": 0}, "total": 538}, {"counts": {"AllGather": 538, "AllReduce": 0, "Broadcast": 0, "Reduce": 0, "ReduceScatter": 0}, "rank": 2, "status": {"abort_flag": false, "async_error": 0, "destroy_flag": false, "finalize_called": false, "init_state": 0}, "total": 538}, {"counts": {"AllGather": 538, "AllReduce": 0, "Broadcast": 0, "Reduce": 0, "ReduceScatter": 0}, "rank": 3, "status": {"abort_flag": false, "async_error": 0, "destroy_flag": false, "finalize_called": false, "init_state": 0}, "total": 538}], "size": 4}, {"hash": "0xfeaffc3e918467c3", "missing": 1, "ranks": [{"counts": {"AllGather": 0, "AllReduce": 19500, "Broadcast": 0, "Reduce": 0, "ReduceScatter": 0}, "rank": 1, "status": {"abort_flag": false, "async_error": 0, "destroy_flag": false, "finalize_called": false, "init_state": 0}, "total": 19500}, {"counts": {"AllGather": 0, "AllReduce": 19500, "Broadcast": 0, "Reduce": 0, "ReduceScatter": 0}, "rank": 2, "status": {"abort_flag": false, "async_error": 0, "destroy_flag": false, "finalize_called": false, "init_state": 0}, "total": 19500}, {"counts": {"AllGather": 0, "AllReduce": 19499, "Broadcast": 0, "Reduce": 0, "ReduceScatter": 0}, "rank": 3, "status": {"abort_flag": false, "async_error": 0, "destroy_flag": false, "finalize_called": false, "init_state": 0}, "total": 19499}], "size": 4}]}
+(Worker_TP3 pid=283) ERROR 07-16 13:09:45 [glm52_watchdog.py:210] glm52_watchdog rank=3: FATAL EXIT via os._exit(1) -- gloo: gather failed 3x (peer dead or wedged)
+ERROR 07-16 13:09:45 [multiproc_executor.py:286] Worker proc VllmWorker-3 died unexpectedly (exit code: None), shutting down executor.
+INFO 07-16 13:09:45 [multiproc_executor.py:431] [shutdown] Executor: waiting for worker exit count=1
+INFO 07-16 13:09:47 [multiproc_executor.py:438] [shutdown] Executor: all workers exited gracefully
