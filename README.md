@@ -1,6 +1,10 @@
 # GLM-5.2 on 4x DGX Spark: FlashInfer sparse-MLA mbarrier livelock
 Root-cause evidence, validated workaround, and reproducer pack.
 
+**Status (July 2026):** deadlock reproduced repeatedly ✅ · cuda-gdb capture obtained ✅ · workaround validated (560+ sessions, 200K restored) ✅ · awaiting upstream investigation ⏳
+
+**Purpose:** this repository exists to give FlashInfer, vLLM, and NVIDIA developers sufficient evidence to reproduce, diagnose, and ultimately fix the sparse-MLA mbarrier livelock, and, until then, to give affected operators a validated workaround.
+
 **What failed:** Serving GLM-5.2 (TP=4, MTP) on GB10/sm_121, any cold-prefill-heavy request could livelock a rank GPU inside FlashInfer's sparse_mla_sm120 attention kernels, wedging the whole cluster (8/8 at >=60K-token cold prefills).
 
 **What we captured:** cuda-gdb on a live wedge: a single resident block spinning at an mbarrier expect-tx wait (SASS receipt), 96% GPU util at ~18W with zero memory traffic. See nvidia-addendum/.

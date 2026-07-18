@@ -36,7 +36,7 @@ Deployment fact, stated precisely: the sm12x Triton drop-ins were installed and 
 
 ## Caveats / honest scope
 - The livelock is probabilistic per cold-prefill tile count: quiet short-context or warm-cache serving will NOT reproduce it; staged cold prefill at ≥2.4K-token deltas reproduced it within seconds on our fleet.
-- Perf: Triton route throughput vs the flashinfer baseline is measured in our write-up (the cure's cost is a number, stated there); selector preference may want a perf note.
+- Perf: Triton route throughput vs the flashinfer baseline is measured in our write-up (the workaround's cost is a number, stated there); selector preference may want a perf note.
 - Generalization, softened to what we actually know: the race is in kernel-internal barrier logic and plausibly family-wide across sm12x; our validation covers only one model family (GLM-5.2 int4-int8mix, TP=4, MTP spec=4) on GB10 4× DGX Spark; other sm12x targets are untested.
 
 ## Refs

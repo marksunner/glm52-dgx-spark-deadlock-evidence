@@ -15,7 +15,7 @@ are retained privately and can be shared with maintainers on a trusted channel.
 **Node labels:** capture filenames and pack text refer to nodes by TP rank
 (`rank0`..`rank3`); `rank0` is the head node.
 GLM-5.2 int4-int8mix, TP=4, MTP spec=4; vLLM 0.23.1rc1.dev893;
-NVRM 580.159.03; flashinfer JIT sparse_mla_sm120 kernels (pre-cure route).
+NVRM 580.159.03; flashinfer JIT sparse_mla_sm120 kernels (pre-workaround route).
 
 ## cuda-gdb/ — the sparse_mla_sm120 livelock receipt (2026-07-17 12:10Z wedge)
 - `CUDA-GDB-SUMMARY.txt` — cuda-gdb attach on the live wedge, rank 0:
@@ -56,7 +56,7 @@ marlin/UMA interpretation that the cuda-gdb receipt later retracted (marlin was 
 bystander behind a jammed launch queue). They are included unedited for honesty;
 read them with `cuda-gdb/CUDA-GDB-SUMMARY.txt` and the dossier as the final word.
 
-## soak-logs/ — R-series, overnight statistics, and the 200K probe (Triton route, post-cure)
+## soak-logs/ — R-series, overnight statistics, and the 200K probe (Triton route, post-workaround)
 - `R1-observe-climb-soak30-20260717T1247Z.log` / `R2-enforce-climb-soak30-20260717T1310Z.log`
   / `R3-control-climb-soak30-20260717T1333Z.log` — driver logs for the three
   30-session ceiling rounds at 120K (observe/enforce/off): 64-stage staged climb,
